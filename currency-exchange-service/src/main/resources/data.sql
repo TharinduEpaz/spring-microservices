@@ -1,0 +1,10 @@
+INSERT INTO currency_exchange (id, currency_from, currency_to, conversion_multiple, environment) VALUES (10003, 'GBP', 'USD', 1.18, 'test');
+INSERT INTO currency_exchange (id, currency_from, currency_to, conversion_multiple, environment) VALUES (10004, 'JPY', 'EUR', 0.0092, 'production');
+INSERT INTO currency_exchange (id, currency_from, currency_to, conversion_multiple, environment) VALUES (10005, 'AUD', 'CAD', 0.95, 'development');
+INSERT INTO currency_exchange (id, currency_from, currency_to, conversion_multiple, environment) VALUES (10006, 'INR', 'USD', 0.015, 'test');
+INSERT INTO currency_exchange (id, currency_from, currency_to, conversion_multiple, environment) VALUES (10007, 'CAD', 'AUD', 1.05, 'production');
+INSERT INTO currency_exchange (id, currency_from, currency_to, conversion_multiple, environment) VALUES (10008, 'USD', 'EUR', 0.88, 'development');
+INSERT INTO currency_exchange (id, currency_from, currency_to, conversion_multiple, environment) VALUES (10009, 'EUR', 'INR', 80, 'test');
+INSERT INTO currency_exchange (id, currency_from, currency_to, conversion_multiple, environment) VALUES (10010, 'CHF', 'USD', 1.12, 'production');
+INSERT INTO currency_exchange (id, currency_from, currency_to, conversion_multiple, environment) VALUES (10011, 'GBP', 'JPY', 140, 'development');
+INSERT INTO currency_exchange (id, currency_from, currency_to, conversion_multiple, environment) VALUES (10012, 'USD', 'CAD', 1.28, 'test');
