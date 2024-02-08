@@ -21,10 +21,11 @@ public class CurrencyExchangeController {
     public CurrencyExchange retrieveExchangeValue(@PathVariable String from,@PathVariable String to){
 
         CurrencyExchange currencyExchange = currencyExchangeRepository.findByFromAndTo(from, to);
+        if(currencyExchange == null){
+            throw new RuntimeException("Unable to find data for "+ from + " to " + to);
+        }
         String port = environment.getProperty("local.server.port");
-
         currencyExchange.setEnvironment(port);
-
         return currencyExchange;
     }
 
